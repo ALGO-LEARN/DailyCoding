@@ -72,8 +72,7 @@ for i in range(n):
                 continue
             for l in range(n*n):
                 if seat[i][j] == arr[l]:
-                    number = l
-            print(number)        
+                    number = l       
             if seat[nx][ny] in like_arr[number]:
                 cnt += 1
         if cnt > 0:
