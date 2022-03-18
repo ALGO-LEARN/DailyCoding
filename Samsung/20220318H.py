@@ -10,7 +10,6 @@ arr = [[0] * n for _ in range(n)]
 
 for s in range(n_square):
     tmp = []
-    maxX, maxY, maxLike, maxEmpty = 0, 0, -1, -1
     for i in range(n):
         for j in range(n):
             sumLike, sumEmpty = 0, 0
